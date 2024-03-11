@@ -25,6 +25,7 @@ const WishlistCard = ({ el }: { el: Wishlist }) => {
         {el.wishlistProduct.excerpt}
       </p>
       <p
+        className="cursor-pointer hover:text-gray-500"
         onClick={() => {
           handleDeleteWishlist(el._id);
           console.log("deleted");

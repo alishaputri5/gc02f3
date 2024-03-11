@@ -22,7 +22,7 @@ export default function Login() {
         </div>
         <div className="relative z-0 w-96 mb-16 group mt-6">
           <input
-            type="text"
+            type="password"
             className="block py-4 px-0 w-full text-sm text-gray-900 bg-transparent border-b border-solid border-gray-900 appearance-none focus:outline-none focus:ring-0 peer"
             placeholder=" "
             name="password"
